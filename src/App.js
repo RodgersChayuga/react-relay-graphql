@@ -13,7 +13,6 @@ function App() {
     let isMounted = true;
     fetchGraphQL(`
       query RepositoryNameQuery {
-        # feel free to change owner/name here
         repository(owner: "facebook" name: "relay") {
           name
         }
