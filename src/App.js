@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{name != null ? `Repository: ${name}` : "Loading"}</p>
+        <p>{name != null ? `Repository: ${name}` : "Loading..."}</p>
       </header>
     </div>
   );
